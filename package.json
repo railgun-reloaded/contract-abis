@@ -1,0 +1,24 @@
+{
+  "name": "contract-abis",
+  "version": "1.0.0",
+  "description": "A Collection of ABI for Interacting with Railgun Contracts",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://git@github.com/railgun-reloaded/contract-abis.git"
+  },
+  "keywords": [
+    "railgun-reloaded",
+    "railgun-contract-abis",
+    "railgun"
+  ],
+  "author": "RAILGUN Project Contributors",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/railgun-reloaded/contract-abis/issues"
+  },
+  "homepage": "https://github.com/railgun-reloaded/contract-abis#readme"
+}
