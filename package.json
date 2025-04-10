@@ -1,9 +1,14 @@
 {
-  "name": "contract-abis",
-  "version": "1.0.0",
+  "name": "@railgun-reloaded/contract-abis",
+  "version": "0.0.0",
   "description": "A Collection of ABI for Interacting with Railgun Contracts",
   "main": "index.js",
   "scripts": {
+    "build": "tsc --build",
+    "clean": "tsc --build --clean",
+    "lint": "eslint",
+    "lint:fix": "eslint --fix",
+    "prepack": "npm run build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -20,5 +25,11 @@
   "bugs": {
     "url": "https://github.com/railgun-reloaded/contract-abis/issues"
   },
-  "homepage": "https://github.com/railgun-reloaded/contract-abis#readme"
+  "homepage": "https://github.com/railgun-reloaded/contract-abis#readme",
+  "devDependencies": {
+    "@railgun-reloaded/eslint-config": "^1.1.0",
+    "@railgun-reloaded/tsconfig": "^1.2.0",
+    "eslint": "^9.24.0",
+    "typescript": "^5.8.3"
+  }
 }
