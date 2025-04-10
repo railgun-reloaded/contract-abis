@@ -3,6 +3,10 @@
   "version": "0.0.0",
   "description": "A Collection of ABI for Interacting with Railgun Contracts",
   "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./*": "./abis/*"
+  },
   "scripts": {
     "build": "tsc --build",
     "clean": "tsc --build --clean",
