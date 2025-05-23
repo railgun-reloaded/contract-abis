@@ -5,7 +5,7 @@
 ## Example Usage
 
 ```js
-import {RailgunSmartWalletV1} from '@railgun-reloaded/contract-abis'
+import {RailgunV1} from '@railgun-reloaded/contract-abis'
 
 // Or to import a single ABI
 
