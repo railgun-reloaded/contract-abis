@@ -1,6 +1,6 @@
 {
   "name": "@railgun-reloaded/contract-abis",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A Collection of ABI for Interacting with Railgun Contracts",
   "main": "index.js",
   "exports": {
